@@ -1,1 +1,1 @@
-Set-ADComputer -Identity 'ComputerName' -ServicePrincipalNames @{ Remove = "SPN"}
+Set-ADComputer -Identity 'TestPC' -ServicePrincipalNames @{Remove='WSMAN/TestPC'}
