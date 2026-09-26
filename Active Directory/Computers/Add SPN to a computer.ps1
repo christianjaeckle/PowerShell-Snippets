@@ -1,5 +1,5 @@
-Set-ADComputer -Identity "ComputerName" -Add @{ServicePrincipalName='WSMAN/TestPC'}
+Set-ADComputer -Identity "TestPC" -Add @{ServicePrincipalName='WSMAN/TestPC'}
 
 # OR
 
-Set-ADComputer -Identity "ComputerName" -ServicePrincipalNames @{Add='WSMAN/TestPC'}
+Set-ADComputer -Identity "TestPC" -ServicePrincipalNames @{Add='WSMAN/TestPC'}
