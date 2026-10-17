@@ -22,7 +22,7 @@ permissions:
       security-events: write
 
 jobs:
-  scan:
+  verify:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
